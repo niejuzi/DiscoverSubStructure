@@ -2,6 +2,7 @@
 import numpy as np
 import scipy as sp
 import vaex as vx
+import astropy as pyfits
 
 def Matched_filter(grid,binsize=[0.1,0.2],Template,Background):
 
